@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #003153;
+  color: #1b1b1b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.logout {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.logout:hover {
+  background-color: white;
+  color: #003153;
+}
+
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 400px;
+}
+
+.home li{
+  background-color: white;
+  padding: 0 2rem;
+  border-radius: 2rem;
+}
+
+.home li button {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #003153;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.savedRecipe li {
+  background-color: white;
+  padding: 0 2rem 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.createRecipe {
+  transition: all 0.3s ease-in-out;
+}
+
+.createRecipe:hover {
+  background-color: white;
+  color: #003153;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.navbar {
+  margin: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #1c2841;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.create-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 45%;
+}
+
+.create-recipe form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+form > input {
+  border-radius: 0.5rem;
+  height: 0.5rem;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0.3rem 0;
+}
+
+form > textarea {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.createRecipe {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  background-color: #002147;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.createRecipeTitle {
+  color: #002147;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-top: 1rem;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  max-width: 400px;
+  font-size: 12px;
+}
+
+button {
+  cursor: pointer;
+}
