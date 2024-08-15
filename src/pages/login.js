@@ -15,7 +15,7 @@ export const Login = () => {
       event.preventDefault();
   
       try {
-        const result = await axios.post("http://localhost:3001/login", {
+        const result = await axios.post("https://recipe-backend-ejrp.onrender.com/login", {
           username,
           password,
         });

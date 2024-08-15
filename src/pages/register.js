@@ -13,7 +13,7 @@ export const Register = () => {
     const handleSubmit = async (event) => {
       event.preventDefault();
       try {
-        await axios.post("http://localhost:3001/register", {
+        await axios.post("https://recipe-backend-ejrp.onrender.com/register", {
           username,
           password,
         });
